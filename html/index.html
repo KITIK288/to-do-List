@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To do list</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="icon" href="#">
+    <script src="../js/index.js"></script>
+</head>
+<body>
+    <div class="main-container" id="main-container">
+        <div class="buttonChangeTheme">
+            <button class="changeTheme" onclick="themeChange()">🌚</button>
+        </div>
+        <div class="title">
+            <h1 class="titleH1">My to do list</h1>
+        </div>
+        <div class="task-input">
+            <input type="text" id="task" placeholder="Enter a task here">
+        </div>
+        <div class="add-button">
+            <button class="add" id="add" onclick="add()">Add task</button>
+        </div>
+        <div class="title-tasks">
+            <h1>My tasks</h1>
+        </div>
+        <div class="myTasks" id="myTasks">
+            <span class="tasks" id="tasks"></span>
+        </div>
+    </div>
+</body>
+</html>
